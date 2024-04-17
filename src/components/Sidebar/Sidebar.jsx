@@ -40,8 +40,6 @@ const Sidebar = () => {
           : null
         }
         </div>
-        
-        
     </div>
   )
 }
