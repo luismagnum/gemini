@@ -14,6 +14,10 @@
     color: #585858;
 }
 
+.main .nav h1{
+    color:#d42a2a;
+}
+
 .main .nav img{
     width: 50px;
     margin-right: 10px;
