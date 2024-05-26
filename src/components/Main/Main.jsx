@@ -26,24 +26,24 @@ const Main = () => {
       {!showResult
       ?<>
          <div className='greet'>
-            <p><span>Hello..</span></p>
-            <p>How I can help you today</p>
+            <p><span>Hola..</span></p>
+            <p>Como puedo ayudarte hoy..</p>
         </div>
         <div className='cards'>
             <div className='card'>
-              <p>Suggest beautiful place to see on an upcoming road trip</p>
+              <p>Sugerir un hermoso lugar para tus proximas vacaciones</p>
               <img src={fig1} alt=''/>
             </div>
         <div className='card'>
-              <p>Briefly summarize this concept: urban planing</p>
+              <p>Resumir brevemente un concepto: Planificacion urbana</p>
               <img src={fig2} alt=''/>
             </div>
         <div className='card'>
-              <p>Brainstorm team bonding activities for our work retreat</p>
+              <p>Alguna actividad que puede realizar luego de mi retiro de trabajo</p>
               <img src={fig3} alt=''/>
             </div>
         <div className='card'>
-              <p>Improve the reability of the following code</p>
+              <p>Mejorar la confiabilidad del siguiente codigo</p>
               <img src={fig4} alt=''/>
             </div>
         </div>
@@ -68,14 +68,14 @@ const Main = () => {
 
     <div className='main-bottom'>
         <div className="search-box">
-            <input onChange={(e)=>setInput(e.target.value)} value={input} type='text' placeholder='Enter a prompt here'/>
+            <input onChange={(e)=>setInput(e.target.value)} value={input} type='text' placeholder='Ingrese un mensaje...'/>
             <div>
                 
                 {input?<img onClick={()=>onSent()} src={arrow} alt=''/>:null}
             </div>
         </div>
         <p className='bottom-info'>
-          Gemini may display inaccurate info. included about people.
+          Gemini puede mostrar informacion inexacta, incluso sobre personas.
         </p>
     </div>
     </div>
