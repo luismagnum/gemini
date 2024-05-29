@@ -75,9 +75,9 @@ const Main = () => {
             </div>
         </div>
         <p className='bottom-info'>
-          Gemini puede mostrar informacion inexacta, incluso sobre personas.
+          Software Developer Luis E. Diaz
         </p>
-    </div>
+       </div>
     </div>
   </div>
   )

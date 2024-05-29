@@ -67,6 +67,15 @@
     cursor: pointer;
 }
 
+.main-bottom .search-box{
+    margin-top: -30px;
+}
+
+.bottom-info{
+    color: #282828;
+    font-weight: bold;
+}
+
 @media (max-width:600px){
     .sidebar{
         display: flex;
@@ -77,6 +86,8 @@
         font-size: 15px;
     }
 
-
+    .bottom-info{
+        font-size: 5px;
+    }
 }
 
